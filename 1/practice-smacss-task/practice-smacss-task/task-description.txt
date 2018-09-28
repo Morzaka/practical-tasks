@@ -1,0 +1,7 @@
+1. Open a project folder in your text editor and exam the html and css structure
+2. Modify index.html and css/modules.css files according to points below
+3. Change the html markup for each <article> elements to have a class name 'task'
+4. Add a corresponding classes to its subelements, like 'task-header', 'task-footer', 'task-header-date'
+5. Modify css respectively.
+6. Add a modifier classes to the .task elements which has a minor visual differense: 
+ 6.1. add 'is-primary' class for the green task and 'is-disabled' for the grey task.

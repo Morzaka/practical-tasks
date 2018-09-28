@@ -1,0 +1,130 @@
+/* USER */
+.user {
+  overflow: hidden;
+  margin-bottom: 20px;
+  }
+  .user-pic {
+    float: left;
+    width: 50px;
+    padding: 5px;
+    background: #fff;
+    border: #ccc solid 1px;
+  }
+  .user-info {
+    overflow: hidden;
+    padding: 10px 0 0 20px;
+  }
+  .user-name {
+    margin: 0 0 5px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .user-status {
+    color: #666;
+  }
+  .user-status:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: red;
+    margin: 4px 5px 0 0;
+  }
+
+
+/* Main nav */
+.main-nav {
+  margin: 0 0 20px;
+  padding: 0;
+}
+  .main-nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+    .main-nav > ul > li {
+      margin: 0;
+      padding: 0;
+    }
+
+
+  .main-nav-item {
+    display: block;
+    padding: 10px;
+    border-bottom: #ccc solid 1px;
+    color: #666;
+    text-decoration: none;
+  }
+    .main-nav-item:hover {
+      background: #ddd;
+    }
+    .main-nav-item.is-active {
+      background: #36B1B9;
+      color: #fff;
+    }
+
+/*Sidebar-footer */
+.sidebar-footer {
+  color: #999;
+  font-size: 12px;
+}
+
+/* Task */
+article {
+  margin: 0 0 20px;
+  padding: 15px 20px;
+  border: #ccc solid 1px;
+  border-radius: 2px;
+}
+  article header {
+    padding: 0 0 10px;
+    border-bottom: #eee solid 1px;
+    color: #000;
+    font-weight: bold;
+  }
+  article > div {
+    padding: 10px 0;
+  }
+  article footer {
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 12px;;
+    margin: 0 -20px -15px;
+    background: #eee;
+  }
+    article footer .date {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    article footer .left {
+      display: inline-block;
+    }
+      article footer .left:before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        overflow: hidden;
+        background: #36B1B9;
+        margin: 0 5px 0 0;
+      }
+
+  /* state: is-primary */
+  article#primary {
+    border-color: #36B1B9;
+  }
+    article#primary footer {
+      background: #B8E4E7;
+    }
+  /* state: is-disabled */
+  article#disabled {
+    background: #eee;
+    color: #999;
+  }
+    article#disabled header {
+      color: #999;
+    }

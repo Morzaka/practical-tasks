@@ -1,0 +1,19 @@
+1. Create a project folder
+2. download a bootstrap compiled files (https://getbootstrap.com/) into this folder
+3. create an index.html with a basic structure as on documentation page
+4. Include a bootstrap.min.css to the page file from the downloaded css folder
+5. Add a jumbotron fluid component to the page, modify its text
+6. Create a basic three column layout on a page for the medium screen. Don’t forget to use a .container wrapper. Add some content from the https://getbootstrap.com/ home page columns
+7. Modify columns layout: switch first and last columns for the medium screen using .order-last and .order-first classes
+8. Modify columns layout: for the small screen make two first columns 50% width and hide the third column.
+9. Override some bootstrap defaults styles: create a style.css file, inject it to the page below the bootstrap.min.css. Inspect the jumbotron component in a dev tools, copy it’s css selector and use it inside style.css file to add to this component 10px dark top border. Do the same for the title text, change the font-family to monospace
+10. Add some custom elements and styles: wrap content of each column by the div.contentBox and add following styles to it:
+	.contentBox { margin-bottom: 3rem; font-style: italic; }
+        .contentBox h2 {  border-bottom: 2px dashed; margin-bottom: 1rem; }
+11. Add two more columns to the page 50% width each with an empty .card component inside. Card component should be without background but with border of the same blue color as .info helper class has
+12. Add a table (small) into the first card
+13. Add a login form into the second card. A simplified from documentation page could be used
+14. Add a javascript files to the page: jQuery, poppers from the cdn’s and a bootstrap.min.js for the downloaded folder
+15. Add an alert component above the form. This alert should have a ‘close’ button which should actually hide it after click
+16. Add a ’show modal’ button with an ‘info’ blue background next to ‘submit’ form button. It should trigger a simple modal window on click. The markup for modal window could be taken from the documentation page 
+17. Go to https://bootswatch.com/ and choose any theme, download a themed version of bootstrap.min.css file into the project and include it to page replacing the default one. Downloading could be omitted if the css file hosted on a bootswatch site will be included to page
